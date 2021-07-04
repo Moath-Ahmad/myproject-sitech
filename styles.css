@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(images-fan/spiderman-comics-spider-man-superhero-dark-wallpaper.jpg);
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    padding: 20px 150px 20px 150px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.849);
+    font-family: Gill Sans, sans-serif;
+}
+.menu-container{
+    color: #fff!important;
+    padding: 30px;
+    background-color: #592d8e77;
+    display:flex;   
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    align-items: stretch;
+    position: sticky;
+    border-radius: 20px;
+}
+.logo{
+    margin-right: 100px;
+    width: 200px;
+    flex: 1;
+}
+.login{
+    width: 100%;
+    text-align: left;
+    align-self: center;
+}
+strong {
+    font-size: 36px;
+    text-align: center;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.image-and-contact img {
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+.image-and-contact p {
+    margin-left: 5px auto;
+    padding-top: 8px; 
+    text-align: justify;
+}
+p{
+    padding: 10px;
+}
+#side-menu{
+    color: #fff;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.body-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.side-menu{
+    
+    width: 200px;
+    background-color: #ed982879   ;
+    align-self: stretch;
+    border-radius: 20px;
+}
+.contact-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.image-and-contact{
+    height: 450px;
+    overflow: visible;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #70747670;
+    padding: 10px;
+}
+.contact-subcontainer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 20px;
+    
+}
+.form,
+.display-subcontainer{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #ea4f2871;
+}
+.form{
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.more-box{
+    height: 200px;
+    background-color: #72a90385;
+    margin: 10px 0px 0px 10px ;
+    border-radius: 20px;
+}
+.heros{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px;  
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin: 5px auto;
+    text-align: left;
+
+}
+.heros-items{
+    margin-top: 10px;
+}
+a:hover,
+a:hover:visited{
+    color: #272625;
+}
+a:active
+a:active:visited{
+    color: #434146;
+}
+.enter-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.labels-contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 250px;
+}
+label{
+    margin-top: auto;
+    font-size: 14px;
+    align-self: baseline;
+}
+.npt{
+    margin-top: 20px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 220, 0.308);
+    width: 100%;
+}
+::placeholder{
+    color:#272625;
+}
+.form-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.btn-location {
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.705);
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    background-color: #592d8eef;
+    color: #fff;
+}
+option{
+    background-color: #70747670;
+}
+
+
+
+
+
